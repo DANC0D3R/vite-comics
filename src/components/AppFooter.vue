@@ -138,31 +138,31 @@ export default {
     footer{
         // Blu Menu
         .blue-menu{
-        padding: 3rem;
+            padding: 3rem;
 
-        background-color: var(--dc-blue);
-        ul{
-            display: flex;
-            justify-content: space-around;
-            
-            list-style: none;
-            li a{
+            background-color: var(--dc-blue);
+            ul{
                 display: flex;
-                align-items: center;
+                justify-content: space-around;
+                
+                list-style: none;
+                li a{
+                    display: flex;
+                    align-items: center;
 
-                text-transform: uppercase;
-                text-decoration: none;
+                    text-transform: uppercase;
+                    text-decoration: none;
 
-                color: #FFFFFF; 
-                img{
-                    max-width: 65px;
-                    height: 60px;
-                    
-                    margin-right: 1rem;
+                    color: #FFFFFF; 
+                    img{
+                        max-width: 65px;
+                        height: 60px;
+                        
+                        margin-right: 1rem;
+                    }
                 }
             }
         }
-    }
         // Link Utili
         .jumbo-bg{
             height: 300px;
@@ -241,7 +241,7 @@ export default {
                         font-weight: bold;
 
                         color: var(--dc-blue);
-                        
+
                         text-decoration: none;
                     }
                     ul{
