@@ -78,6 +78,7 @@ export default {
         </div>
     </header>
 </template>
+
 <!-- Stile -->
 <style lang="scss" scoped>
 @use '../assets/scss/variables' as *;
@@ -87,19 +88,21 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         height: 100%;
         figure{
             height: 90px;
             a{
                 height: 100%;
                 img{
-                    height: 100%;
                     width: auto;
+                    height: 100%;
                 }
             }
         }
         ul{
             display: flex;
+            
             height: 100%;
 
             list-style-type: none;
