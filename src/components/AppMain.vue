@@ -10,6 +10,7 @@ export default {
     </div>
 </template>
 
+<!-- Stile -->
 <style lang="scss" scoped>
     div{
         display: flex;

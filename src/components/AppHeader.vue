@@ -78,7 +78,7 @@ export default {
         </div>
     </header>
 </template>
-
+<!-- Stile -->
 <style lang="scss" scoped>
 @use '../assets/scss/variables' as *;
 header {
@@ -120,9 +120,9 @@ header {
                     text-decoration: none;
                 }
                 &.active{
-                    border-bottom: 5px solid #1E90FF;
+                    border-bottom: 5px solid var(--dc-blue);
                     a{
-                        color: #1E90FF;
+                        color: var(--dc-blue);
                     }
                 }
             }
