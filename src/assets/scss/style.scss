@@ -11,6 +11,15 @@
 /* REGOLE GENERALI */
 .container {
     max-width: 1200px;
-    
+
     margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+// COLORI
+:root{
+    --dc-blue: #0282F9;
 }
