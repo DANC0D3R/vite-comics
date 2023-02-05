@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/variables' as *;
-button {
+button{
     margin: 20px 0;
     padding: 5px 10px;
 

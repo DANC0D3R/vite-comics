@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <main>
         <div class="jumbo">
             <img src="../assets/img/jumbotron.jpg" alt="jumbotron">
         </div>
@@ -25,19 +25,21 @@ export default {
             <!-- Card Section -->
             <div class="card-section">
                 <!-- Card -->
-                <Card v-for="comic in comics"></Card>
+                <Card v-for="comic in comics" :key="comic.series" :comic="comic"></Card>
             </div>
             <div class="text-center">
                 <Button :text="ButtonText"></Button>
             </div>
         </div>
-    </div>
+    </main>
 </template>
 
 <!-- Stile -->
 <style lang="scss" scoped>
 @use '../assets/scss/variables' as *;
-.jumbo {
+main{
+    background-color: #000000;
+    .jumbo {
     height: 350px;
 
     overflow: hidden;
@@ -63,5 +65,6 @@ h2 {
 }
 .text-center {
     text-align: center;
+}
 }
 </style>
